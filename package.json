@@ -1,0 +1,82 @@
+{
+  "name": "punesi-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.8.7",
+    "@jumpn/utils-graphql": "^0.6.0",
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@react-pdf-viewer/thumbnail": "^3.12.0",
+    "@react-pdf-viewer/zoom": "^3.12.0",
+    "@stripe/react-stripe-js": "^2.7.1",
+    "@stripe/stripe-js": "^3.5.0",
+    "@tabler/icons": "^3.6.0",
+    "apollo-absinthe-upload-link": "^1.7.0",
+    "apollo-link-context": "^1.0.20",
+    "apollo-upload-client": "^17.0.0",
+    "bootstrap": "^5.3.3",
+    "date-fns": "^2.0.0-beta.4",
+    "date-fns-tz": "^1.0.7",
+    "dompurify": "^3.1.5",
+    "graphql": "^16.8.1",
+    "graphql-ws": "^5.14.2",
+    "humps": "^2.0.1",
+    "js-cookie": "^3.0.5",
+    "lodash.debounce": "^4.0.8",
+    "node-sass": "^9.0.0",
+    "pdfjs-dist": "^3.11.174",
+    "prop-types": "^15.8.1",
+    "quill": "^2.0.2",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.2",
+    "react-bootstrap-typeahead": "^6.3.2",
+    "react-datepicker": "^4.23.0",
+    "react-day-picker": "^8.9.1",
+    "react-doc-viewer": "^0.1.11",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-gravatar": "^2.6.3",
+    "react-helmet-async": "^2.0.5",
+    "react-icons": "^5.2.1",
+    "react-pdf": "^9.0.0",
+    "react-quill": "^2.0.0",
+    "react-router-dom": "6.23.1",
+    "react-simple-star-rating": "^5.1.7",
+    "react-transition-group": "^4.2.2",
+    "render-if": "^0.1.1",
+    "sitemap": "^8.0.0",
+    "uikit": "^3.21.5"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@fullhuman/postcss-purgecss": "^6.0.0",
+    "customize-cra": "^1.0.0",
+    "javascript-obfuscator": "^4.1.1",
+    "million": "^3.1.11",
+    "react-app-rewired": "^2.2.1",
+    "react-scripts": "^5.0.1",
+    "terser-webpack-plugin": "^5.3.10",
+    "webpack-obfuscator": "^3.5.1"
+  }
+}
